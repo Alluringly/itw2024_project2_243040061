@@ -86,7 +86,7 @@ body {
   font-size: 50px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .carousel-caption {
     bottom: 370px;
   }
@@ -103,7 +103,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .navbar-nav {
     text-align: center;
   }
@@ -127,6 +127,7 @@ body {
   }
   .about-text {
     padding-top: 50px;
+    text-align: center;
   }
 
   .card {

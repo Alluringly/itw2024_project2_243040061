@@ -108,10 +108,6 @@ body {
     text-align: center;
   }
 
-  .carousel-caption {
-    bottom: 125px;
-  }
-
   .carousel-caption h5 {
     font-size: 17px;
   }
@@ -124,6 +120,8 @@ body {
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
+    justify-content: center;
+    justify-items: center;
   }
   .about-text {
     padding-top: 50px;

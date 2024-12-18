@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
         <div class="container">
-          <a class="navbar-brand" href="#"><span class="text-warning">Whip</span><span class="text-light">Movies</span></Films></a>
+          <a class="navbar-brand"><span class="text-warning">Whip</span><span class="text-light">Movies</span></a>
           <form class="d-flex" role="search">
             <input class="form-control me-1" type="search" placeholder="Search for movies" aria-label="Search">
             <button class="btn btn-outline-success me-1" type="submit">Search</button>
@@ -243,10 +243,10 @@
                                 <textarea rows="3" required class="form-control" placeholder="Your Query Here" name="pesan"></textarea>
                             </div>
                         </div>
-                        <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+                        <div><button class="btn btn-warning btn-lg mb-3">Send Now</button></div>
                         <button class="btn btn-warning btn-loading d-none" type="button" disabled>
-                          <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                          <span role="status">Loading...</span>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        <span role="status">Loading...</span>
                         </button>
                     </div>
                   </form>
